@@ -8,5 +8,3 @@ export const store = configureStore({
     ager: ageReducer
   }
 })
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
