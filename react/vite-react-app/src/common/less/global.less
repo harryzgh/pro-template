@@ -1,0 +1,32 @@
+html, body, #root{
+  height: 100%;
+}
+/*清浮动*/
+.clearfix:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{
+  display:block;
+}
+ 
+
+.demo {
+  width: 100px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.trangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 50px;
+  border-color: transparent transparent red;
+}

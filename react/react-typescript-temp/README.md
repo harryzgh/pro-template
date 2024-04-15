@@ -8,23 +8,23 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
+The page will reload if you make edits.
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -46,20 +46,25 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## `other`
+
 ### vscode markdown 预览 (安装了Office Viewer插件)
-mac：command + shift + v \
+
+mac：command + shift + v 
 windows：ctrl + shift + v
 
 ### 全局状态管理
-react-redux \
+
+react-redux 
 [@reduxjs/toolkit](https://cn.redux.js.org/redux-toolkit/overview/)
 
-yarn add react-redux \
+yarn add react-redux 
 yarn add @reduxjs/toolkit@1.9.5
 
-
 ### 路由
+
 使用了react router 6， 网页应用开发的话，只需要安装react-router-dom@6就行
 yarn add react-router-dom@6
 
+### 参考
 
+https://zhuanlan.zhihu.com/p/591567093
